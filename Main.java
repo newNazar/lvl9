@@ -49,7 +49,6 @@ public class Main {
     }
 
      */
-
     //для LinkedList
     /*
     public static void main(String[] args) {
@@ -115,7 +114,10 @@ public class Main {
         queue.clear();
         System.out.println("Список пуст! Текущий размер списка : "+queue.size());
     }
+
     */
+    //Для Stack
+    /*
     public static void main(String[] args){
         Stack<Integer> stack = new Stack<>();
         stack.push(1);
@@ -133,5 +135,36 @@ public class Main {
         System.out.println("Список пуст! Текущий размер списка : "+stack.size());
 
     }
+
+     */
+    //Для HasmMap
+    /*
+    public static void main(String[] args) {
+        MyHashMap<Integer, String> hashMap = new MyHashMap<>();
+        hashMap.put(123, "Имя");
+        hashMap.put(234, "Фамилия");
+        hashMap.put(345, "Отчество");
+
+        System.out.println("Значение для ключа 1: " + hashMap.get(123));
+        System.out.println("Значение для ключа 2: " + hashMap.get(234));
+        System.out.println("Значение для ключа 2: " + hashMap.get(345));
+
+        // Удаляем
+        hashMap.remove(234);
+
+        // Размер коллекции после удаления
+        System.out.println("\nРазмер коллекции после удаления: " + hashMap.size());
+        System.out.println("Значение для ключа 1: " + hashMap.get(123));
+        System.out.println("Значение для ключа 2: " + hashMap.get(234));
+        System.out.println("Значение для ключа 2: " + hashMap.get(345));
+
+        hashMap.clear();
+
+        System.out.println("\nРазмер после очистки: " + hashMap.size());
+
+    }
+
+     */
 }
+
 
